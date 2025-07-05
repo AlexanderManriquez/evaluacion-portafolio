@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alexander Manriquez - Desarrollador Full-Stack.</title>
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
     <script src="https://kit.fontawesome.com/6262dc69d7.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/styles.css"/>
@@ -12,7 +13,7 @@
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
                 <a class="navbar-brand" href="#">
-                    <img src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                    <img src="./assets/img/alexander-m-logo.png" alt="Logo" width="35" height="35" class="d-inline-block align-text-top">
                 </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -44,6 +45,7 @@
     
     <main>
     <!-- About Me Section -->
+    <!-- ToDo: Agregar una imagen bajo los párrafos de descripción, Agregar animaciones al texto -->
         <section class="about-me container-fluid" id="about-me">
             <div class="container">
                 <h2 class="display-5 pt-5 pb-2">Acerca de mi</h2>
@@ -82,6 +84,7 @@
             </div>
         </section>
     <!-- Projects Section -->
+    <!-- ToDo: Agregar imagenes en las cards de los proyectos -->
         <section class="projects container-fluid py-5" id="projects">
             <div class="container">
                 <h2 class="display-5 pt-5 pb-2">Mis Proyectos</h2>
@@ -121,15 +124,44 @@
     </main>
 
     <!-- Contact Section -->
-     <section class="contact" id="contact">
-        <form action=""></form>
+     <section class="contact container" id="contact">
+        <h2 class="display-5 pt-5 pb-2">Contacto</h2>
+        <form action="">
+            <div class="mb-3">
+                <label for="name" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="name" placeholder="Tu nombre" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Correo Electrónico</label>
+                <input type="email" class="form-control" id="email" placeholder="Tu correo electrónico" required>
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="message" rows="3" placeholder="Tu mensaje" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
      </section>
 
-     <footer>
+     <footer class="footer container-fluid">
+        <div class="container text-center py-5">
+            <p>Desarrollado con ❤️ Alexander Manríquez 🇨🇱</p>
+            <p>© 2025 Todos los derechos reservados.</p>
+            <div class="social">
+                <p>Visitame y Sígueme en mis redes sociales:</p>
+                <div class="social__icons d-flex justify-content-center gap-5">
+                    <a href="https://github.com/AlexanderManriquez" target="_blank"><i class="fa-brands fa-square-github footer-icons"></i></a>
+                    <a href="https://web.facebook.com/palabrasdefuego/" target="_blank"><i class="fa-brands fa-square-facebook footer-icons"></i></a>
+                    <a href="http://www.instagram.com/alexander.manriquez.s" target="_blank"><i class="fa-brands fa-square-instagram footer-icons"></i></a>
+                    <a href="https://www.linkedin.com/in/alexander-manriquez/" target="_blank"><i class="fa-brands fa-linkedin footer-icons"></i></a>
+                    <a href="https://www.last.fm/es/user/DevListener" target="_blank"><i class="fa-brands fa-square-lastfm footer-icons"></i></a>
+                </div>
+            </div>
+        </div>
 
      </footer>
 
-     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js" integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK" crossorigin="anonymous"></script>
     <script src="./assets/js/script.js"></script>
 </body>

@@ -17,6 +17,15 @@ body {
     color: #111827;
 }
 
+.nav-link {
+    color: #111827;
+}
+
+.nav-link:hover {
+    color: #38BDF8;
+    transition: color 0.3s ease;
+}
+
 .btn-primary {
     background-color: #1E3A8A;
     border-color: #1E3A8A;
@@ -65,4 +74,21 @@ body {
     box-shadow: 0 4px 8px #38BDF8;
     transform: translateY(-5px);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:hover, textarea:hover {
+    border-color: #38BDF8;
+    box-shadow: 0 0 5px #38BDF8;
+}
+
+.footer {
+    background-color: #1E3A8A;
+    color: #919aac;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.footer-icons {
+    font-size: 1.5rem;
+    color:#919aac;
 }
