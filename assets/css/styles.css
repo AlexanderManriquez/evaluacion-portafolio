@@ -1,0 +1,28 @@
+/* Paleta de colores:
+    Fondo: #F9FAFB (Gris muy claro)
+    Texto Primario: #111827 (Gris oscuro neutro)
+    Texto Secundario: #6B7280 (Gris medio)
+    Primario: #1E3A8A (Azul oscuro)
+    Secundario: #38BDF8 (Celeste)
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F9FAFB;
+    color: #111827;
+}
+
+.btn-primary {
+    background-color: #1E3A8A;
+    border-color: #1E3A8A;
+}
+
+.btn-primary:hover {
+    border-color: #38BDF8;
+    box-shadow: -1px 2px 5px #38BDF8;
+}
