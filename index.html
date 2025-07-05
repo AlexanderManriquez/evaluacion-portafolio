@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alexander Manriquez - Desarrollador Full-Stack.</title>
+    <script src="https://kit.fontawesome.com/6262dc69d7.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/styles.css"/>
 </head>
@@ -27,29 +28,94 @@
     </nav>
     <!-- Hero Section -->
     <header class="hero-section py-5">
-        <div class="container text-center py-5">
-            <h1 class="display-4">Alexander Manriquez</h1>
-            <p class="lead">Desarrollador Full-Stack</p>
-            <a href="#contact" class="btn btn-primary">Contact Me</a>
+        <div class="container text-center d-flex">
+            <div class="row">
+                <img src="./assets/img/development-illustration.svg" class="w-50 col-12 col-lg-6 m-auto" alt="">
+                <div class="hero-section__content py-5 col-12 col-lg-6">
+                    <h1 class="display-4 py-5">Hola! Soy Alexander Manriquez</h1>
+                    <p class="lead">Desarrollador Full-Stack</p>
+                    <a href="#contact" class="btn btn-primary">Contact Me</a>
+                </div>
+            </div>
+            
+            
         </div>
     </header>
     
     <main>
     <!-- About Me Section -->
-        <section class="about-me container" id="about-me">
-            <h2 class="display-5 py-5">Acerca de mi</h2>
-            <div class="paragraphs d-flex align-items-center justify-content-between gap-5">
-                <p class="w-25">Hola, soy Alexander Manríquez, desarrollador full-stack en formación con una sólida base en educación gracias a mi formación como pedagogo en química, y con experiencia en atención al cliente.</p>
-                <p class="w-25">Estas experiencias me han permitido desarrollar habilidades clave como la comunicación efectiva, la resolución de problemas y el trabajo en equipo. Motivado por mi interés en la tecnología, he decidido redirigir mi carrera hacia el desarrollo de software.</p>
-                <p class="w-25">Mi objetivo es contribuir a la transformación digital de personas y negocios, creando soluciones web funcionales, accesibles y orientadas a sus necesidades.</p>
+        <section class="about-me container-fluid" id="about-me">
+            <div class="container">
+                <h2 class="display-5 pt-5 pb-2">Acerca de mi</h2>
+                <div class="paragraphs row">
+                    <div class="col-12 col-md-4">
+                        <p>Hola, soy Alexander Manríquez, desarrollador full-stack en formación con una sólida base en educación gracias a mi formación como pedagogo en química, y con experiencia en atención al cliente.</p>    
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <p>Estas experiencias me han permitido desarrollar habilidades clave como la comunicación efectiva, la resolución de problemas y el trabajo en equipo. Motivado por mi interés en la tecnología, he decidido redirigir mi carrera hacia el desarrollo de software.</p>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <p>Mi objetivo es contribuir a la transformación digital de personas y negocios, creando soluciones web funcionales, accesibles y orientadas a sus necesidades.</p>
+                    </div>                
+                </div>
             </div>
+
         </section>
     <!-- Skills Section -->
-        <section class="skills" id="skills">
-            
+        <section class="skills container py-5" id="skills">
+            <h2 class="display-5 pt-5">Mis Habilidades</h2>
+            <div class="skills__icons">
+                <i class="fa-brands fa-html5" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="HTML 5"></i>
+                <i class="fa-brands fa-css" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="CSS 3"></i>
+                <i class="fa-brands fa-js" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="JavaScript (ES6+)"></i>
+                <i class="fa-brands fa-react" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="React"></i>
+                <i class="fa-solid fa-wind" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="TailwindCSS"></i>
+                <i class="fa-brands fa-node-js" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Node.JS"></i>
+            </div>
+            <div class="skills__icons">
+                <i class="fa-brands fa-git" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Git"></i>
+                <i class="fa-brands fa-github" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="GitHub"></i>
+                <i class="fa-solid fa-database" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Bases de datos SQL"></i>
+                <i class="fa-brands fa-vuejs" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Vue.js"></i>
+                <i class="fa-brands fa-bootstrap" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Bootstrap"></i>
+                <i class="fa-brands fa-java" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Java"></i>
+            </div>
         </section>
     <!-- Projects Section -->
-        <section class="projects id="projects">
+        <section class="projects container-fluid py-5" id="projects">
+            <div class="container">
+                <h2 class="display-5 pt-5 pb-2">Mis Proyectos</h2>
+                <p>Aquí puedes ver una selección de mis proyectos destacados. Para ver todos mis proyectos visita mi repositorio de <a href="https://github.com/AlexanderManriquez" target="_blank">GitHub</a></p>
+                <div class="projects__cards row py-3 d-flex justify-content-evenly">
+                    <div class="project-card col-12 col-md-6 col-lg-3 my-1">
+                        <img src="" alt="">
+                        <h3>Proyecto 1</h3>
+                        <p>Descripción breve del proyecto. Aquí puedes incluir tecnologías utilizadas y el objetivo del proyecto.</p>
+                        <a href="" class="btn btn-primary" target="_blank">Visitar Proyecto</a>
+                    </div>
+
+                    <div class="project-card col-12 col-md-6 col-lg-3 my-1">
+                        <img src="" alt="">
+                        <h3>Proyecto 1</h3>
+                        <p>Descripción breve del proyecto. Aquí puedes incluir tecnologías utilizadas y el objetivo del proyecto.</p>
+                        <a href="" class="btn btn-primary" target="_blank">Visitar Proyecto</a>
+                    </div>
+
+                    <div class="project-card col-12 col-md-6 col-lg-3 my-1">
+                        <img src="" alt="">
+                        <h3>Proyecto 1</h3>
+                        <p>Descripción breve del proyecto. Aquí puedes incluir tecnologías utilizadas y el objetivo del proyecto.</p>
+                        <a href="" class="btn btn-primary" target="_blank">Visitar Proyecto</a>
+                    </div>
+
+                    <div class="project-card col-12 col-md-6 col-lg-3 my-1">
+                        <img src="" alt="">
+                        <h3>Proyecto 1</h3>
+                        <p>Descripción breve del proyecto. Aquí puedes incluir tecnologías utilizadas y el objetivo del proyecto.</p>
+                        <a href="" class="btn btn-primary" target="_blank">Visitar Proyecto</a>
+                    </div>
+                </div>
+            </div>
 
         </section>
     </main>
@@ -65,5 +131,6 @@
 
      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js" integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK" crossorigin="anonymous"></script>
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>
