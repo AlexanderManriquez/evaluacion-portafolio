@@ -6,4 +6,4 @@ Proyecto para desarrollar un portafolio profesional a lo largo del bootcamp Full
 
 Para poder visitar el avance de la página visita el siguiente enlace:
 
-🔗 <a href="https://alexandermanriquez.github.io/evaluacion-portafolio/">Portafolio</a>
+🔗 <a href="https://alexandermanriquez.github.io/evaluacion-portafolio/" target="_blank">Portafolio</a>
