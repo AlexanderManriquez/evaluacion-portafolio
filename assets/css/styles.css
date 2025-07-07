@@ -15,6 +15,7 @@
 body {
     background-color: #F9FAFB;
     color: #111827;
+    font-family: "Space Grotesk", sans-serif;
 }
 
 .nav-link {
@@ -39,6 +40,20 @@ body {
 .about-me {
     background-color: #1E3A8A;
     color: #919aac;
+}
+
+.img-container {
+    padding: 2rem;
+}
+
+.about-me__img {
+
+    border-radius: 10px;
+    width: 90%;
+    max-width: 800px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 .skills__icons {
