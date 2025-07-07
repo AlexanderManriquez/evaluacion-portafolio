@@ -1,0 +1,109 @@
+/* Paleta de colores:
+    Fondo: #F9FAFB (Gris muy claro)
+    Texto Primario: #111827 (Gris oscuro neutro)
+    Texto Secundario: #919aac (Gris medio)
+    Primario: #1E3A8A (Azul oscuro)
+    Secundario: #38BDF8 (Celeste)
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F9FAFB;
+    color: #111827;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+.nav-link {
+    color: #111827;
+}
+
+.nav-link:hover {
+    color: #38BDF8;
+    transition: color 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #1E3A8A;
+    border-color: #1E3A8A;
+}
+
+.btn-primary:hover {
+    border-color: #38BDF8;
+    box-shadow: -1px 2px 5px #38BDF8;
+}
+
+.about-me {
+    background-color: #1E3A8A;
+    color: #919aac;
+}
+
+.img-container {
+    padding: 2rem;
+}
+
+.about-me__img {
+
+    border-radius: 10px;
+    width: 90%;
+    max-width: 800px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.skills__icons {
+    display: flex;
+    justify-content: space-around;
+    flex: wrap;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.fa-brands, .fa-solid {
+    font-size: 2.5rem;
+}
+
+.fa-brands:hover, .fa-solid:hover {
+    color: #38BDF8;
+    transition: color 0.3s ease;
+    transform: scale(1.1);
+}
+
+.projects {
+    background-color: #1E3A8A;
+    color: #919aac;
+}
+
+.project-card {
+    border: 1px solid #38BDF8;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.project-card:hover {
+    box-shadow: 0 4px 8px #38BDF8;
+    transform: translateY(-5px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:hover, textarea:hover {
+    border-color: #38BDF8;
+    box-shadow: 0 0 5px #38BDF8;
+}
+
+.footer {
+    background-color: #1E3A8A;
+    color: #919aac;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.footer-icons {
+    font-size: 1.5rem;
+    color:#919aac;
+}
