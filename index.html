@@ -12,11 +12,12 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/styles.css"/>
 </head>
+<!-- ToDo: Cambiar formato de las imágenes por webp o avif -->
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
                 <a class="navbar-brand" href="#">
-                    <img src="./assets/img/alexander-m-logo.png" alt="Logo" width="35" height="35" class="d-inline-block align-text-top">
+                    <img src="./assets/img/alexander-m-logo.webp" alt="Logo" width="35" height="35" class="d-inline-block align-text-top">
                 </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -48,7 +49,7 @@
     
     <main>
     <!-- About Me Section -->
-    <!-- ToDo: Agregar una imagen bajo los párrafos de descripción, Agregar animaciones al texto -->
+    <!-- ToDo: Agregar animaciones al texto -->
         <section class="about-me container-fluid" id="about-me">
             <div class="container">
                 <h2 class="display-5 pt-5 pb-2">Acerca de mi</h2>
@@ -98,30 +99,38 @@
                 <p>Aquí puedes ver una selección de mis proyectos destacados. Para ver todos mis proyectos visita mi repositorio de <a href="https://github.com/AlexanderManriquez" target="_blank">GitHub</a></p>
                 <div class="projects__cards row py-3 d-flex justify-content-evenly">
                     <div class="project-card col-12 col-md-6 col-lg-3 my-1">
-                        <img src="" alt="">
-                        <h3>Proyecto 1</h3>
-                        <p>Descripción breve del proyecto. Aquí puedes incluir tecnologías utilizadas y el objetivo del proyecto.</p>
+                        <img src="./assets/img/klik-market.webp" alt="Portada del proyecto Klik Market" class="project-card__img">
+                        <div class="project-card__content">
+                            <h3>Klik Market</h3>
+                            <p>Supermercado en línea. Tecnologías utilizadas: HTML, CSS, JavaScript.</p>
+                        </div>
+                        <a href="https://alexandermanriquez.github.io/Market-cart-project/" class="btn btn-primary" target="_blank">Visitar Proyecto</a>
+                    </div>
+
+                    <div class="project-card col-12 col-md-6 col-lg-3 my-1">
+                        <img src="" alt="" class="project-card__img">
+                        <div class="project-card__content">
+                            <h3>Proyecto 1</h3>
+                            <p>Descripción breve del proyecto. Aquí puedes incluir tecnologías utilizadas y el objetivo del proyecto.</p>
+                        </div>
                         <a href="" class="btn btn-primary" target="_blank">Visitar Proyecto</a>
                     </div>
 
                     <div class="project-card col-12 col-md-6 col-lg-3 my-1">
-                        <img src="" alt="">
-                        <h3>Proyecto 1</h3>
-                        <p>Descripción breve del proyecto. Aquí puedes incluir tecnologías utilizadas y el objetivo del proyecto.</p>
+                        <img src="" alt="" class="project-card__img">
+                        <div class="project-card__content">
+                            <h3>Proyecto 1</h3>
+                            <p>Descripción breve del proyecto. Aquí puedes incluir tecnologías utilizadas y el objetivo del proyecto.</p>
+                        </div>
                         <a href="" class="btn btn-primary" target="_blank">Visitar Proyecto</a>
                     </div>
 
                     <div class="project-card col-12 col-md-6 col-lg-3 my-1">
-                        <img src="" alt="">
-                        <h3>Proyecto 1</h3>
-                        <p>Descripción breve del proyecto. Aquí puedes incluir tecnologías utilizadas y el objetivo del proyecto.</p>
-                        <a href="" class="btn btn-primary" target="_blank">Visitar Proyecto</a>
-                    </div>
-
-                    <div class="project-card col-12 col-md-6 col-lg-3 my-1">
-                        <img src="" alt="">
-                        <h3>Proyecto 1</h3>
-                        <p>Descripción breve del proyecto. Aquí puedes incluir tecnologías utilizadas y el objetivo del proyecto.</p>
+                        <img src="" alt="" class="project-card__img">
+                        <div class="project-card__content">
+                            <h3>Proyecto 1</h3>
+                            <p>Descripción breve del proyecto. Aquí puedes incluir tecnologías utilizadas y el objetivo del proyecto.</p>
+                        </div>
                         <a href="" class="btn btn-primary" target="_blank">Visitar Proyecto</a>
                     </div>
                 </div>
