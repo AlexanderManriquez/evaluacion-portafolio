@@ -1,0 +1,26 @@
+{
+  "name": "evaluacion-portafolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "tailwindcss -i ./assets/css/input.css -o ./assets/css/styles.css --minify",
+    "watch:css": "tailwindcss -i ./assets/css/input.css -o ./assets/css/styles.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexanderManriquez/evaluacion-portafolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/AlexanderManriquez/evaluacion-portafolio/issues"
+  },
+  "homepage": "https://github.com/AlexanderManriquez/evaluacion-portafolio#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
